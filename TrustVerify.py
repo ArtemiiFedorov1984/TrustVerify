@@ -112,7 +112,7 @@ def verify_integrity():
         print("Verification FAILED: Signature is invalid or manifest was altered.")
         return False
     
-# Пример использования для демо
+
 if __name__ == "__main__":
     print("--- TrustVerify CLI Tool ---")
     print("1: Generate RSA Keys (First time only)")
@@ -121,7 +121,7 @@ if __name__ == "__main__":
     
     choice = input("Select action (1/2/3): ")
     
-    # Укажи здесь имя папки, которую хочешь защитить
+  
     folder_to_watch = "test_files" 
 
     if choice == "1":
