@@ -3,7 +3,6 @@ import json
 import os
 from cryptography.hazmat.primitives import hashes, serialization
 from cryptography.hazmat.primitives.asymmetric import rsa, padding
-
 # Task 1: Генерация SHA-256 для файла [cite: 8]
 def get_file_hash(filepath):
     sha256_hash = hashlib.sha256()
